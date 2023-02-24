@@ -308,7 +308,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
 ✪ (@{username}) done... 
-✪ By @BHthon - @myAbnBashar
+✪ By @alskanw - @IIIYYTAam
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -369,7 +369,7 @@ async def _(event):
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
 ✪ (@{username}) done...
-✪ By @BHthon - @myAbnBashar
+✪ By @alskanw - @IIIYYTAam
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -401,7 +401,7 @@ async def _(event):
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
 ✪ (@{username}) The catch was done 
-✪ By @BHthon - @myAbnBashar
+✪ By @alskanw - @IIIYYTAam
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
